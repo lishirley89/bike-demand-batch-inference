@@ -84,7 +84,7 @@ with col1:
 
 # Get H3 index
 try:
-    h3_index = h3.latlng_to_cell(st.session_state.lat, st.session_state.lng, H3_RESOLUTION)
+    h3_index = h3.geo_to_h3(st.session_state.lat, st.session_state.lng, H3_RESOLUTION)
 except Exception as e:
     st.error(f"Error: {e}")
     h3_index = None
