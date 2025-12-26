@@ -8,6 +8,8 @@ Streamlit app for visualizing bike share demand predictions for Chicago's Divvy 
 
 <div align="center">
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bike-demand-batch-inference.streamlit.app/)
+
 **[Click here to open the app](https://bike-demand-batch-inference.streamlit.app/)**
 
 </div>
