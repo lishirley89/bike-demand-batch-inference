@@ -10,14 +10,12 @@ Streamlit app for visualizing bike share demand predictions for Chicago's Divvy 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bike-demand-batch-inference.streamlit.app/)
 
-**[👉 Click here to open the app 👈](https://bike-demand-batch-inference.streamlit.app/)**
+**[Click here to open the app](https://bike-demand-batch-inference.streamlit.app/)**
 
 </div>
 
-> **Note:** GitHub markdown doesn't support iframe embedding. To embed this app on other platforms (like documentation sites, blogs, etc.), use:
-> ```html
-> <iframe src="https://bike-demand-batch-inference.streamlit.app/?embed=true" height="600" width="100%" style="border:none;"></iframe>
-> ```
+
+![Bike Demand Predictions App](viz/demand-gif.gif)
 
 ## Features
 
@@ -38,6 +36,8 @@ Streamlit app for visualizing bike share demand predictions for Chicago's Divvy 
 │   ├── streamlit_app.py    # Main Streamlit application
 │   └── data_access.py        # S3 data access module with caching
 ├── artifacts/              # Local artifacts (gitignored)
+├── viz/                    # Visualization assets
+│   └── demand-gif.gif      # Demo GIF
 ├── .streamlit/
 │   └── secrets.toml        # AWS credentials (gitignored)
 ├── requirements.txt        # Python dependencies
