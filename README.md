@@ -15,7 +15,7 @@ Streamlit app for visualizing bike share demand predictions for Chicago's Divvy 
 </div>
 
 
-![Bike Demand Predictions App](viz/demand-gif.gif)
+![Bike Demand Predictions App](viz/bike-demand-inference.png)
 
 ## Features
 
